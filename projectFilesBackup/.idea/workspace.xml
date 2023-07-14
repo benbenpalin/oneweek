@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5c66a15-3fea-4b9f-a257-0c552886e4af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oneweek/day2.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_56.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_62.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_2_194.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_3_218.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oneweek.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oneweek.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oneweek/day1.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/oneweek/day1.clj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SZS5IMIHQh2teqVCYfjY1dt2MI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cursive.last.file.extension./Users/benpalin/code/hackerrank/oneweek/src": "clj",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="ReplState" timestamp="1689368503581">{:repl-history {:ide [], :local [{:command &quot;(plusMinus [-1 0 1])&quot;, :offset 20, :ns &quot;oneweek.day1&quot;} {:command &quot;(range 5)&quot;, :offset 9, :ns &quot;oneweek.day1&quot;} {:command &quot;(println 1 2)&quot;, :offset 13, :ns &quot;oneweek.day1&quot;} {:command &quot;(min [1 2 3])&quot;, :offset 13, :ns &quot;oneweek.day1&quot;} {:command &quot;(miniMaxSum [1 3 5 7 9])&quot;, :offset 24, :ns &quot;oneweek.day1&quot;} {:command &quot;(int \&quot;12\&quot;)&quot;, :offset 10, :ns &quot;oneweek.day1&quot;} {:command &quot;(-&gt; \&quot;12:01:04PM\&quot;\n    (str/split #\&quot;:\&quot;)\n    first)&quot;, :offset 39, :ns &quot;oneweek.day1&quot;} {:command &quot;(-&gt; \&quot;12:01:04PM\&quot;\n    (str/split #\&quot;:\&quot;)\n    first\n    (Integer/parseInt))&quot;, :offset 71, :ns &quot;oneweek.day1&quot;} {:command &quot;(-&gt; \&quot;12:01:04PM\&quot;\n    (str/split #\&quot;:\&quot;)\n    first\n    Integer/parseInt)&quot;, :offset 52, :ns &quot;oneweek.day1&quot;} {:command &quot;(take-last 2 \&quot;12:01:04PM\&quot;)&quot;, :offset 26, :ns &quot;oneweek.day1&quot;} {:command &quot;(subs \&quot;12:01:04PM\&quot; 8 10)&quot;, :offset 24, :ns &quot;oneweek.day1&quot;} {:command &quot;(subs \&quot;12:01:04PM\&quot; 2)&quot;, :offset 21, :ns &quot;oneweek.day1&quot;} {:command &quot;(subs \&quot;12:01:04PM\&quot; 0 2)&quot;, :offset 21, :ns &quot;oneweek.day1&quot;} {:command &quot;(subs \&quot;12:01:04PM\&quot; 2 8)&quot;, :offset 23, :ns &quot;oneweek.day1&quot;} {:command &quot;(quot 12 12)&quot;, :offset 12, :ns &quot;oneweek.day1&quot;} {:command &quot;(rem 12 12)&quot;, :offset 4, :ns &quot;oneweek.day1&quot;} {:command &quot;(rem 7 12)&quot;, :offset 6, :ns &quot;oneweek.day1&quot;} {:command &quot;(timeConversion \&quot;12:01:04PM\&quot;)&quot;, :offset 29, :ns &quot;oneweek.day1&quot;} {:command &quot;(timeConversion \&quot;11:01:04PM\&quot;)&quot;, :offset 19, :ns &quot;oneweek.day1&quot;} {:command &quot;(timeConversion \&quot;12:01:04AM\&quot;)&quot;, :offset 29, :ns &quot;oneweek.day1&quot;} {:command &quot;(rem 0 12)&quot;, :offset 10, :ns &quot;oneweek.day1&quot;} {:command &quot;(timeConversion \&quot;07:05:45PM\&quot;)&quot;, :offset 20, :ns &quot;oneweek.day1&quot;} {:command &quot;(timeConversion \&quot;12:05:45AM\&quot;)&quot;, :offset 29, :ns &quot;oneweek.day1&quot;} {:command &quot;(timeConversion \&quot;12:05:45PM\&quot;)&quot;, :offset 26, :ns &quot;oneweek.day1&quot;} {:command &quot;(timeConversion \&quot;07:05:45AM\&quot;)&quot;, :offset 29, :ns &quot;oneweek.day1&quot;} {:command &quot;(plusMinus [-4, 3, -9, 0, 4, 1])&quot;, :offset 32, :ns &quot;oneweek.day1&quot;} {:command &quot;(lonelyinteger [1 2 3 4 3 2 1])&quot;, :offset 31, :ns &quot;oneweek.day2&quot;} {:command &quot;(vector 1 2)&quot;, :offset 12, :ns &quot;oneweek.day2&quot;} {:command &quot;(map vector [1 2] [1 2])&quot;, :offset 24, :ns &quot;oneweek.day2&quot;} {:command &quot;(diagonalDifference [1 2 3 4 5])&quot;, :offset 32, :ns &quot;oneweek.day2&quot;} {:command &quot;(map )&quot;, :offset 5} {:command &quot;(map vector [1 2] [3 4])&quot;, :offset 24, :ns &quot;oneweek.day2&quot;} {:command &quot;(map #(vector %2 %1) [1 2] [3 4])&quot;, :offset 4, :ns &quot;oneweek.day2&quot;} {:command &quot;(clojure.math/abs 2)&quot;, :offset 20, :ns &quot;oneweek.day2&quot;} {:command &quot;(diagonalDifference [[1 2 3]\n                     [4 5 6]\n                     [9 8 9]])&quot;, :offset 88, :ns &quot;oneweek.day2&quot;} {:command &quot;(clojure-version)&quot;, :offset 17, :ns &quot;oneweek.day2&quot;}], :remote []}}</component>
+  <component name="RunManager">
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="oneweek" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <option name="configVersion" value="1" />
+      <option name="displayName" value="oneweek" />
+      <module name="oneweek" />
+      <option name="options" />
+      <option name="profiles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5c66a15-3fea-4b9f-a257-0c552886e4af" name="Changes" comment="" />
+      <created>1689352426118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689352426118</updated>
+      <workItem from="1689352429770" duration="7385000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

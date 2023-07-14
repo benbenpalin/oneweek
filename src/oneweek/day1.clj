@@ -1,11 +1,10 @@
-(ns oneweek.day1
-  (:require
-    [clojure.string :as str]))
+(ns oneweek.day1)
 
-(defn plusMinus [arr]
+(defn plusMinus
   "Given an array of integers, calculate the ratios of its elements that are positive,
    negative, and zero. Print the decimal value of each fraction on a new line with
    places after the decimal."
+  [arr]
   (let[rat (reduce
                #(cond
                   (pos? %2) (update %1 0 inc)
@@ -15,10 +14,11 @@
                arr)]
     (doseq [i rat] (println (format "%.6f" (float (/ i (count arr))))))))
 
-(defn miniMaxSum [arr]
+(defn miniMaxSum
   "Given five positive integers, find the minimum and maximum values that can be calculated
   by summing exactly four of the five integers. Then print the respective minimum and maximum
   values as a single line of two space-separated long integers."
+  [arr]
   (let [indices (range 5)
         combos (map #(assoc arr % 0) indices)
         sums (map #(apply + %) combos)]
@@ -29,8 +29,9 @@
     "00"
     hour))
 
-(defn timeConversion [s]
+(defn timeConversion
   "Given a time in -hour AM/PM format, convert it to military (24-hour) time."
+  [s]
   (let [hour (-> s
                  (subs 0 2)
                  twelve-as-zero)
